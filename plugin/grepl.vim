@@ -1,3 +1,9 @@
+" Grepl - Find text even faster
+"
+" Author:     Artur Pyszczuk <apyszczuk@gmail.com>
+" License:    Same terms as Vim itself
+" Website:    https://github.com/apyszczuk/vim-grepl
+
 if exists ('g:loaded_grepl')
     finish
 endif
