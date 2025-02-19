@@ -25,3 +25,11 @@ function! grepl#grepl_open(pattern, ...)
     \       a:000,
     \       [":lopen"])
 endfunction
+
+function! grepl#grepl_open_far_right(pattern, ...)
+    call grepl#grepl(a:pattern,
+    \       g:grepl_flags,
+    \       g:grepl_from,
+    \       a:000,
+    \       [":lopen", ":wincmd L"])
+endfunction
