@@ -13,10 +13,10 @@ let g:grepl_mappings    = 1
 command! -nargs=+ Grepl :call function(g:grepl_function)(<f-args>)
 
 
-nnoremap <plug>(grepl-normal-whole-word)    :Grepl \<<C-R>=expand("<cword>")<CR>\><CR>
-nnoremap <plug>(grepl-normal-word)          :Grepl <C-R>=expand("<cword>")<CR><CR>
-vnoremap <plug>(grepl-visual-whole-word)    y:Grepl \<<C-R>"\><CR>
-vnoremap <plug>(grepl-visual-word)          y:Grepl <C-R>"<CR>
+nnoremap <Plug>(grepl-normal-whole-word)    :Grepl \<<C-R>=expand("<cword>")<CR>\><CR>
+nnoremap <Plug>(grepl-normal-word)          :Grepl <C-R>=expand("<cword>")<CR><CR>
+vnoremap <Plug>(grepl-visual-whole-word)    y:Grepl \<<C-R>"\><CR>
+vnoremap <Plug>(grepl-visual-word)          y:Grepl <C-R>"<CR>
 
 if g:grepl_mappings == 1
     nnoremap m*  <Plug>(grepl-normal-whole-word)
