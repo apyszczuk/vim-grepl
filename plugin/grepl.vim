@@ -1,4 +1,4 @@
-" Grepl - Find text even faster
+" vim-grepl - Find text even faster
 "
 " Author:     Artur Pyszczuk <apyszczuk@gmail.com>
 " License:    Same terms as Vim itself
